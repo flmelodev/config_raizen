@@ -1,1 +1,1 @@
-Add-Computer -DomainName -ComputerName %computername% cosan.rede -OUPath "OU=Notebooks,OU=Raizen,OU=02 - Diretorio de Computadores,DC=cosan,DC=rede"
+Add-Computer -DomainName cosan.rede -ComputerName %computername%  -OUPath "OU=Notebooks,OU=Raizen,OU=02 - Diretorio de Computadores,DC=cosan,DC=rede"
